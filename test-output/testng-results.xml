@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+    <line>
+      <![CDATA[loginTitle is Displayed, PASS]]>
+    </line>
+    <line>
+      <![CDATA[homeTitle is Displayed, PASS]]>
+    </line>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="12266" started-at="2021-11-13T09:05:07Z" finished-at="2021-11-13T09:05:20Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="12266" started-at="2021-11-13T09:05:07Z" finished-at="2021-11-13T09:05:20Z">
+      <class name="com.WorkPanel.products.CreateProductsTest">
+        <test-method status="PASS" signature="openBrowser()[pri:0, instance:com.WorkPanel.products.CreateProductsTest@6e06451e]" name="openBrowser" is-config="true" duration-ms="5669" started-at="2021-11-13T14:35:07Z" finished-at="2021-11-13T14:35:13Z">
+          <reporter-output>
+            <line>
+              <![CDATA[loginTitle is Displayed, PASS]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method status="PASS" signature="createProducts()[pri:0, instance:com.WorkPanel.products.CreateProductsTest@6e06451e]" name="createProducts" duration-ms="5802" started-at="2021-11-13T14:35:13Z" finished-at="2021-11-13T14:35:19Z">
+          <reporter-output>
+            <line>
+              <![CDATA[homeTitle is Displayed, PASS]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- createProducts -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.WorkPanel.products.CreateProductsTest@6e06451e]" name="closeBrowser" is-config="true" duration-ms="777" started-at="2021-11-13T14:35:19Z" finished-at="2021-11-13T14:35:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- com.WorkPanel.products.CreateProductsTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
