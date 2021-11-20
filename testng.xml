@@ -5,7 +5,6 @@
     <classes>
       <class name="com.WorkPanel.products.CreateProductsTest"/>
       <class name="com.WorkPanel.vendor.CreateVendorTest"/>
-      <class name="com.WorkPanel.WindowHandling.WindowHandling"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->
